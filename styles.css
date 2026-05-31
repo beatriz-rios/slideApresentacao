@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     width: 100vw;
     position: relative;
+    overflow: hidden;
 }
 
 .presentation-area {
@@ -903,6 +904,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.03);
     transition: var(--transition-smooth);
     margin-right: calc(-1 * var(--sidebar-width)); /* Initially hidden */
+    flex-shrink: 0;
 }
 
 /* Open State */
